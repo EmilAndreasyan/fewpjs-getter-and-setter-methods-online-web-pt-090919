@@ -7,4 +7,8 @@ class Circle {
   pi(){
     return Math.PI * this.radius
   }
+  
+  get diameter(){
+    
+  }
 }
