@@ -5,6 +5,6 @@ class Circle {
   }
   
   pi(){
-    return Math.PI(this.radius)
+    return Math.PI * this.radius
   }
 }
