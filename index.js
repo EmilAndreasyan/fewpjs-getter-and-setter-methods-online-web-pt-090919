@@ -8,6 +8,11 @@ class Bird {
   }
   
   get speak(){
-    return `${this.name} says ${this._phrase}`
+    return `${this.name} says ${this._phrase || 'squawk'}`
   }
 }
+
+let daffy = new Bird("Daffy");
+daffy.speak
+daffy.phrase = "It's rabbit season"
+daffy.speak
