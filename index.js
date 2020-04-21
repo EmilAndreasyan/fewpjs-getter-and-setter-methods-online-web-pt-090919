@@ -21,6 +21,6 @@ class Circle {
   }
   
   set circumference(circumference){
-    this.radius = 
+    this.radius = circumference / (2 * Math.PI)
   }
 }
